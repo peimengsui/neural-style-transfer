@@ -19,9 +19,13 @@ For Cuda backend:
 Make sure to download VGG-19 before running the script.
 
 This can be done by running:
-
+For slow version:
 ```{bash}
 sh models/download_models.sh
+```
+For fast version:
+```{bash}
+sh models/download_vgg16.sh
 ```
 
 Basic usage:
