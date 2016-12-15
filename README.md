@@ -17,23 +17,15 @@ Generate an art image using slow version:
 Generate an art image using fast version:
 
     th fast-style-transfer.lua -cuda \
-
        -use_model PATH/TO/TRAINED_MODEL \ 
-
        -input_img PATH/TO/INPUT_IMAGE.jpg \
-
        -output_img PATH/TO/OUTPUT_IMAGE.jpg \
   
-Train an image transformation net (for fast version only):
+Train an image transformation model (for fast version only):
 
     th train_model.lua -cuda \ 
-
        -h5_file PATH/TO/TRAINING_DATASET \
-
        -max_train 20000 \
-
        -content_weight 2.0 -style_weight 5.0 \ 
-
        -TV_weight 1e-5 \
-
        -jobid default 
