@@ -1,5 +1,4 @@
-# neural-style-transfer
-Neural Style Transfer
+# Neural Style Transfer
 
 Make sure to download VGG-19 (for slow verion) and VGG-16 (for fast version) and put them in the /model directory
 before generating art picture (slow version) or training an image transformation model (fast version).
