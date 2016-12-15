@@ -5,6 +5,25 @@ before generating art picture (slow version) or training an image transformation
 
 Enable cuda support for faster computation.
 
+## Requirement
+
+- torch
+- loadcaffe
+
+For Cuda backend:
+
+- cunn
+- cudnn
+- cutorch
+
+Make sure to download VGG-19 before running the script.
+
+This can be done by running:
+
+```{bash}
+sh models/download_models.sh
+```
+
 Basic usage:
 
 Generate an art image using slow version:
